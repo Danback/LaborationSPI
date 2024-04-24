@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="Add tests and more features" />
+    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="Finished product">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +18,25 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Danback&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Danback/LaborationSPI.git&quot;,
+    &quot;accountId&quot;: &quot;2c345738-a1b7-4c30-acc5-7c665bde90c5&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -30,31 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.FixedRateConverterTest.executor": "Run",
-    "JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor": "Run",
-    "JUnit.VariableRateConverterTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/Dani/IdeaProjects/LaborationSPI/src/test/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FixedRateConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VariableRateConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/src/test/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FixedRateConverterTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.laborationSPI.springboot.Main" />
       <module name="LaborationSPI" />
@@ -116,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FixedRateConverterTest" />
         <item itemvalue="JUnit.VariableRateConverterTest" />
         <item itemvalue="JUnit.FixedRateConverterTest.testConvert_validCurrencies" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +157,8 @@
       <updated>1713930350869</updated>
       <workItem from="1713930351806" duration="3146000" />
       <workItem from="1713942310250" duration="1755000" />
-      <workItem from="1713944476160" duration="3011000" />
+      <workItem from="1713944476160" duration="3731000" />
+      <workItem from="1713948249781" duration="3438000" />
     </task>
     <task id="LOCAL−00001" summary="Working">
       <option name="closed" value="true" />
@@ -157,7 +174,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1713947375951</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Finished product">
+      <option name="closed" value="true" />
+      <created>1713947661228</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1713947661228</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +190,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working" />
     <MESSAGE value="Add tests and more features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests and more features" />
+    <MESSAGE value="Finished product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished product" />
   </component>
 </project>
