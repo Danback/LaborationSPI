@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/FixedRateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/VariableRateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/com.laborationSPI.springboot.CurrencyConverter" afterDir="false" />
+    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="Working">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FixedRateConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/FixedRateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/FixedRateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +55,7 @@
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FixedRateConverterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.laborationSPI.springboot.Main" />
       <module name="LaborationSPI" />
@@ -75,8 +69,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FixedRateConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaborationSPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laborationSPI.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.laborationSPI.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.laborationSPI.springboot.FixedRateConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FixedRateConverterTest.testConvert_validCurrencies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaborationSPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laborationSPI.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.laborationSPI.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.laborationSPI.springboot.FixedRateConverterTest" />
+      <option name="METHOD_NAME" value="testConvert_validCurrencies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariableRateConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LaborationSPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laborationSPI.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.laborationSPI.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.laborationSPI.springboot.VariableRateConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FixedRateConverterTest" />
+        <item itemvalue="JUnit.VariableRateConverterTest" />
+        <item itemvalue="JUnit.FixedRateConverterTest.testConvert_validCurrencies" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -99,11 +142,23 @@
       <updated>1713930350869</updated>
       <workItem from="1713930351806" duration="3146000" />
       <workItem from="1713942310250" duration="1755000" />
-      <workItem from="1713944476160" duration="1460000" />
+      <workItem from="1713944476160" duration="2685000" />
     </task>
+    <task id="LOCAL−00001" summary="Working">
+      <option name="closed" value="true" />
+      <created>1713946210013</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1713946210013</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working" />
   </component>
 </project>

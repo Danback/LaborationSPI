@@ -14,47 +14,59 @@ public class Main {
         }
 
         Scanner scanner = new Scanner(System.in);
-        int choice = 0;
+
         while (true) {
-            try {
-                System.out.println("Choose a converter: 1 for fixed, 2 för variable");
-                choice = scanner.nextInt();
-                if (choice < 1 || choice > converterList.size()) {
-                    System.out.println("Invalid option. Please choose 1 or 2.");
-                    continue;
+            int choice = 0;
+            while (true) {
+                try {
+                    System.out.println("Choose a converter: 1 for fixed, 2 for variable");
+                    choice = scanner.nextInt();
+                    if (choice < 1 || choice > converterList.size()) {
+                        System.out.println("Invalid choice. Please choose 1 or 2.");
+                        continue;
+                    }
+                    break;
+                } catch (InputMismatchException e) {
+                    System.out.println("Invalid input. Use numbers only.");
+                    scanner.next();
                 }
-                break;
-            } catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please use numbers only.");
-                scanner.next();
             }
-        }
 
-        CurrencyConverter converter = converterList.get(choice - 1);
+            CurrencyConverter converter = converterList.get(choice - 1);
 
-        double amount = 0;
-        while (true) {
+            double amount = 0;
+            while (true) {
+                try {
+                    System.out.println("Enter the amount to convert:");
+                    amount = scanner.nextDouble();
+                    break;
+                } catch (InputMismatchException e) {
+                    System.out.println("Invalid input. Enter the amount as a number.");
+                    scanner.next();
+                }
+            }
+
+            System.out.println("Enter the currency to convert from (USD, EUR, JPY, SEK):");
+            String fromCurrency = scanner.next().toUpperCase();
+
+            System.out.println("Enter the currency to convert to (USD, EUR, JPY, SEK):");
+            String toCurrency = scanner.next().toUpperCase();
+
+
             try {
-                System.out.println("Choose an amount to convert:");
-                amount = scanner.nextDouble();
-                break;
-            } catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please use numbers only.");
-                scanner.next();
+                double result = converter.convert(amount, fromCurrency, toCurrency);
+                System.out.printf("Result: %.2f %s%n", result, toCurrency);
+            } catch (IllegalArgumentException e) {
+                System.out.println("Error: " + e.getMessage());
             }
-        }
 
-        System.out.println("Choose a currency to convert from (USD, EUR, JPY):");
-        String fromCurrency = scanner.next().toUpperCase();
 
-        System.out.println("Choose a currency to convert to (USD, EUR, JPY):");
-        String toCurrency = scanner.next().toUpperCase();
-
-        try {
-            double result = converter.convert(amount, fromCurrency, toCurrency);
-            System.out.printf("Result: %.2f %s%n", result, toCurrency);
-        } catch (IllegalArgumentException e) {
-            System.out.println("Wrong: " + e.getMessage());
+            System.out.println("Do you want to convert another amount? (yes/no)");
+            String response = scanner.next().trim().toLowerCase();
+            if (!response.equals("yes")) {
+                System.out.println("Goodbye!");
+                break;
+            }
         }
     }
 }
