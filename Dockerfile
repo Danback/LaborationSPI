@@ -1,16 +1,22 @@
-FROM maven:3.6.3-jdk-11
+FROM openjdk:22-ea-10-jdk-slim AS build
 
-COPY . /usr/src/myapp
+WORKDIR /app
 
-WORKDIR /usr/src/myapp
+COPY pom.xml .
+
+COPY src /app/src
+
 
 RUN mvn clean package
 
-FROM openjdk:11-jre-slim
 
-COPY --from=0 /usr/src/myapp/target/*.jar /usr/app/myapp.jar
+FROM openjdk:22-ea-10-jre-slim
 
-WORKDIR /usr/app
+COPY --from=build /app/module1/target/module1.jar /app
+COPY --from=build /app/module2/target/module2.jar /app
+COPY --from=build /app/module3/target/module3.jar /app
+
+WORKDIR /app
 
 
-CMD ["java", "-jar", "myapp.jar"]
+CMD ["java", "-jar", "module1.jar"]

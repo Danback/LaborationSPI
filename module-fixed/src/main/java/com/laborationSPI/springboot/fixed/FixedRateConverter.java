@@ -1,4 +1,7 @@
-package com.laborationSPI.springboot;
+package com.laborationSPI.springboot.fixed;
+
+
+import com.laborationSPI.springboot.api.CurrencyConverter;
 
 import java.util.HashMap;
 import java.util.Map;
