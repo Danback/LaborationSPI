@@ -3,5 +3,4 @@ module com.laborationSPI.springboot.main {
     requires com.laborationSPI.springboot.fixed;
     requires com.laborationSPI.springboot.variable;
     uses com.laborationSPI.springboot.api.CurrencyConverter;
-    exports com.laborationSPI.springboot.main;
 }

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="no converters found, minor change">
-      <change afterPath="$PROJECT_DIR$/module-api/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-fixed/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-main/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-variable/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-main/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/src/main/java/com/laborationSPI/springboot/main/Main.java" afterDir="false" />
+    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="new error, fixing">
+      <change beforePath="$PROJECT_DIR$/module-api/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-api/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-fixed/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-fixed/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-main/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-variable/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-variable/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +224,7 @@
       <workItem from="1714103020219" duration="2414000" />
       <workItem from="1714105457528" duration="1802000" />
       <workItem from="1714108229715" duration="99000" />
-      <workItem from="1714108356467" duration="6313000" />
+      <workItem from="1714108356467" duration="6645000" />
     </task>
     <task id="LOCAL−00001" summary="Working">
       <option name="closed" value="true" />
@@ -278,7 +275,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1714110415924</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="new error, fixing">
+      <option name="closed" value="true" />
+      <created>1714115772270</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1714115772270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +296,7 @@
     <MESSAGE value="add modules etc" />
     <MESSAGE value="no converters found" />
     <MESSAGE value="no converters found, minor change" />
-    <option name="LAST_COMMIT_MESSAGE" value="no converters found, minor change" />
+    <MESSAGE value="new error, fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="new error, fixing" />
   </component>
 </project>
