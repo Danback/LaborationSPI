@@ -1,3 +1,5 @@
+package com.laborationSPI.springboot.variable;
+
 import com.laborationSPI.springboot.api.CurrencyConverter;
 
 public class VariableRateConverter implements CurrencyConverter {

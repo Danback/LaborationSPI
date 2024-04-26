@@ -28,13 +28,13 @@
             <groupId>com.laborationSPI.springboot</groupId>
             <artifactId>module-fixed</artifactId>
             <version>${project.version}</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.laborationSPI.springboot</groupId>
             <artifactId>module-variable</artifactId>
             <version>${project.version}</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
 
 

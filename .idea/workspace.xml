@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="add modules etc">
-      <change afterPath="$PROJECT_DIR$/module-variable/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" afterDir="false" />
+    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="no converters found">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-api/src/main/resources/META-INF/services/com.laborationSPI.springboot.CurrencyConverter" beforeDir="false" afterPath="$PROJECT_DIR$/module-fixed/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-fixed/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" beforeDir="false" afterPath="$PROJECT_DIR$/module-fixed/src/main/resources/services/com.laborationSPI.springboot.api.CurrencyConverter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-variable/src/main/java/VariableRateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-variable/src/main/java/com/laborationSPI/springboot/variable/VariableRateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-variable/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" beforeDir="false" afterPath="$PROJECT_DIR$/module-variable/src/main/resources/services/com.laborationSPI.springboot.api.CurrencyConverter" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main (1).executor": "Debug",
-    "Application.Main.executor": "Run",
-    "JUnit.FixedRateConverterTest.executor": "Run",
-    "JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor": "Run",
-    "JUnit.VariableRateConverterTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java",
-    "last_opened_file_path": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FixedRateConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VariableRateConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources" />
@@ -203,7 +204,9 @@
       <workItem from="1714041000850" duration="106000" />
       <workItem from="1714041150945" duration="936000" />
       <workItem from="1714103020219" duration="2414000" />
-      <workItem from="1714105457528" duration="977000" />
+      <workItem from="1714105457528" duration="1802000" />
+      <workItem from="1714108229715" duration="99000" />
+      <workItem from="1714108356467" duration="1898000" />
     </task>
     <task id="LOCAL−00001" summary="Working">
       <option name="closed" value="true" />
@@ -240,7 +243,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1714051647278</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="no converters found">
+      <option name="closed" value="true" />
+      <created>1714106522583</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1714106522583</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +262,7 @@
     <MESSAGE value="Finished product" />
     <MESSAGE value="Finished product (dockerfile in progress)" />
     <MESSAGE value="add modules etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add modules etc" />
+    <MESSAGE value="no converters found" />
+    <option name="LAST_COMMIT_MESSAGE" value="no converters found" />
   </component>
 </project>
