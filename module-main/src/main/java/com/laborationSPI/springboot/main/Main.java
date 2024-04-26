@@ -1,5 +1,8 @@
+package com.laborationSPI.springboot.main;
+
 import java.util.*;
 import com.laborationSPI.springboot.api.CurrencyConverter;
+
 
 public class Main {
     public static void main(String[] args) {

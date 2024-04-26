@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="no converters found">
+    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="no converters found, minor change">
+      <change afterPath="$PROJECT_DIR$/module-api/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-fixed/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-main/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-variable/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-fixed/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" beforeDir="false" afterPath="$PROJECT_DIR$/module-fixed/src/main/resources/services/com.laborationSPI.springboot.api.CurrencyConverter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-variable/src/main/java/VariableRateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-variable/src/main/java/com/laborationSPI/springboot/variable/VariableRateConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-variable/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" beforeDir="false" afterPath="$PROJECT_DIR$/module-variable/src/main/resources/services/com.laborationSPI.springboot.api.CurrencyConverter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-main/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/src/main/java/com/laborationSPI/springboot/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,31 +51,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FixedRateConverterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VariableRateConverterTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main (1).executor": "Run",
+    "Application.Main Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JUnit.FixedRateConverterTest.executor": "Run",
+    "JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor": "Run",
+    "JUnit.VariableRateConverterTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java",
+    "last_opened_file_path": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources" />
@@ -91,9 +95,11 @@
       <recent name="com.laborationSPI.springboot" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Main Application">
+    <configuration name="Main Application" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.laborationSPI.springboot.main.Main" />
       <module name="module-main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,6 +114,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.laborationSPI.springboot.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laborationSPI.springboot.main.Main" />
+      <module name="module-main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,9 +171,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main Application" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.com.laborationSPI.springboot.main.Main" />
+      <item itemvalue="JUnit.FixedRateConverterTest" />
+      <item itemvalue="JUnit.FixedRateConverterTest.testConvert_validCurrencies" />
+      <item itemvalue="JUnit.VariableRateConverterTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.com.laborationSPI.springboot.main.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FixedRateConverterTest" />
         <item itemvalue="JUnit.VariableRateConverterTest" />
@@ -206,7 +227,7 @@
       <workItem from="1714103020219" duration="2414000" />
       <workItem from="1714105457528" duration="1802000" />
       <workItem from="1714108229715" duration="99000" />
-      <workItem from="1714108356467" duration="1898000" />
+      <workItem from="1714108356467" duration="6313000" />
     </task>
     <task id="LOCAL−00001" summary="Working">
       <option name="closed" value="true" />
@@ -250,7 +271,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1714106522583</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="no converters found, minor change">
+      <option name="closed" value="true" />
+      <created>1714110415924</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1714110415924</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +291,7 @@
     <MESSAGE value="Finished product (dockerfile in progress)" />
     <MESSAGE value="add modules etc" />
     <MESSAGE value="no converters found" />
-    <option name="LAST_COMMIT_MESSAGE" value="no converters found" />
+    <MESSAGE value="no converters found, minor change" />
+    <option name="LAST_COMMIT_MESSAGE" value="no converters found, minor change" />
   </component>
 </project>
