@@ -23,6 +23,21 @@
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.laborationSPI.springboot</groupId>
+            <artifactId>module-fixed</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.laborationSPI.springboot</groupId>
+            <artifactId>module-variable</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+
     </dependencies>
 
 </project>

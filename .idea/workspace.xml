@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="add modules etc">
-      <change afterPath="$PROJECT_DIR$/module-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-api/src/main/resources/META-INF/services/com.laborationSPI.springboot.CurrencyConverter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-fixed/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-main/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-main/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-variable/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-variable/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/CurrencyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-api/src/main/java/com/laborationSPI/springboot/api/CurrencyConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/FixedRateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-fixed/src/main/java/com/laborationSPI/springboot/fixed/FixedRateConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laborationSPI/springboot/VariableRateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-variable/src/main/java/VariableRateConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/services/com.laborationSPI.springboot.CurrencyConverter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/laborationSPI/springboot/FixedRateConverterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/laborationSPI/springboot/VariableRateConverterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-api/src/main/resources/META-INF/services/com.laborationSPI.springboot.CurrencyConverter" beforeDir="false" afterPath="$PROJECT_DIR$/module-fixed/src/main/resources/services/com.laborationSPI.springboot.CurrencyConverter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,36 +48,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FixedRateConverterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VariableRateConverterTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main (1).executor": "Debug",
+    "Application.Main.executor": "Run",
+    "JUnit.FixedRateConverterTest.executor": "Run",
+    "JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor": "Run",
+    "JUnit.VariableRateConverterTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java",
+    "last_opened_file_path": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources" />
+      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-variable\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources" />
+      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources\META-INF\services" />
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-api\src\main\java" />
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-variable\src\main\java" />
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\java" />
-      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -208,7 +201,9 @@
       <workItem from="1714022912160" duration="560000" />
       <workItem from="1714023522778" duration="1930000" />
       <workItem from="1714041000850" duration="106000" />
-      <workItem from="1714041150945" duration="793000" />
+      <workItem from="1714041150945" duration="936000" />
+      <workItem from="1714103020219" duration="2414000" />
+      <workItem from="1714105457528" duration="977000" />
     </task>
     <task id="LOCAL−00001" summary="Working">
       <option name="closed" value="true" />
@@ -238,7 +233,14 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1713965175539</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="add modules etc">
+      <option name="closed" value="true" />
+      <created>1714051647278</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1714051647278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
