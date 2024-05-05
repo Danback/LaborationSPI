@@ -1,22 +1,21 @@
-FROM openjdk:22-ea-10-jdk-slim AS build
+FROM maven:3.8.4-openjdk-17 AS build
 
 WORKDIR /app
 
-COPY pom.xml .
+COPY pom.xml ./
+RUN mvn dependency:go-offline
 
-COPY src /app/src
+COPY src ./src
 
+RUN mvn clean install
 
-RUN mvn clean package
-
-
-FROM openjdk:22-ea-10-jre-slim
-
-COPY --from=build /app/module1/target/module1.jar /app
-COPY --from=build /app/module2/target/module2.jar /app
-COPY --from=build /app/module3/target/module3.jar /app
+FROM openjdk:17-slim
 
 WORKDIR /app
 
+COPY --from=build /app/target/module-api-1.0-SNAPSHOT.jar ./module-api.jar
+COPY --from=build /app/target/module-fixed-1.0-SNAPSHOT.jar ./module-fixed.jar
+COPY --from=build /app/target/module-variable-1.0-SNAPSHOT.jar ./module-variable.jar
+COPY --from=build /app/target/module-main-1.0-SNAPSHOT.jar ./module-main.jar
 
-CMD ["java", "-jar", "module1.jar"]
+CMD ["java", "--module-path", ".", "--module", "com.laborationSPI.springboot.main/com.laborationSPI.springboot.main.Main"]

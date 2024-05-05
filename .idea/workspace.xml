@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="new error, fixing">
-      <change beforePath="$PROJECT_DIR$/module-api/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-api/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-fixed/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-fixed/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-main/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-main/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-variable/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-variable/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="app works, need dockerfile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,44 +46,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main (1).executor": "Run",
-    "Application.Main Application.executor": "Run",
-    "Application.Main.executor": "Run",
-    "JUnit.FixedRateConverterTest.executor": "Run",
-    "JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor": "Run",
-    "JUnit.VariableRateConverterTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java",
-    "last_opened_file_path": "C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FixedRateConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FixedRateConverterTest.testConvert_validCurrencies.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.VariableRateConverterTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dani/IdeaProjects/LaborationSPI/module-fixed/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources" />
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-variable\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources" />
+      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-variable\src\main\resources\META-INF\services" />
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources\META-INF\services" />
+      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\resources" />
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-api\src\main\java" />
       <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-variable\src\main\java" />
-      <recent name="C:\Users\Dani\IdeaProjects\LaborationSPI\module-fixed\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -224,7 +222,12 @@
       <workItem from="1714103020219" duration="2414000" />
       <workItem from="1714105457528" duration="1802000" />
       <workItem from="1714108229715" duration="99000" />
-      <workItem from="1714108356467" duration="6645000" />
+      <workItem from="1714108356467" duration="6974000" />
+      <workItem from="1714189413124" duration="3508000" />
+      <workItem from="1714456470277" duration="53000" />
+      <workItem from="1714654202982" duration="12000" />
+      <workItem from="1714904548156" duration="1781000" />
+      <workItem from="1714906347079" duration="2173000" />
     </task>
     <task id="LOCAL−00001" summary="Working">
       <option name="closed" value="true" />
@@ -282,7 +285,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1714115772270</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="app works, need dockerfile">
+      <option name="closed" value="true" />
+      <created>1714116232504</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1714116232504</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +307,7 @@
     <MESSAGE value="no converters found" />
     <MESSAGE value="no converters found, minor change" />
     <MESSAGE value="new error, fixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="new error, fixing" />
+    <MESSAGE value="app works, need dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="app works, need dockerfile" />
   </component>
 </project>
