@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="app works, need dockerfile">
+    <list default="true" id="8a52f531-9e37-4a10-8876-99d2b7dc0276" name="Changes" comment="Add Dockerfile.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
@@ -227,7 +227,7 @@
       <workItem from="1714456470277" duration="53000" />
       <workItem from="1714654202982" duration="12000" />
       <workItem from="1714904548156" duration="1781000" />
-      <workItem from="1714906347079" duration="2173000" />
+      <workItem from="1714906347079" duration="6556000" />
     </task>
     <task id="LOCAL−00001" summary="Working">
       <option name="closed" value="true" />
@@ -292,7 +292,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1714116232504</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Add Dockerfile.">
+      <option name="closed" value="true" />
+      <created>1714909839215</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1714909839215</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +315,7 @@
     <MESSAGE value="no converters found, minor change" />
     <MESSAGE value="new error, fixing" />
     <MESSAGE value="app works, need dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="app works, need dockerfile" />
+    <MESSAGE value="Add Dockerfile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dockerfile." />
   </component>
 </project>
